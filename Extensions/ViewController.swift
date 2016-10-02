@@ -14,7 +14,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let fullName: String = "Luna An"
+        let phoneNumber: Int = 8675309
+        print("\(fullName.whisper()),\(fullName.shout())")
+        print(fullName.points)
+        print(fullName.pigLatin)
+        print(phoneNumber.half())
+        print(phoneNumber.halved)
+        print(phoneNumber.squared)
+        print(fullName.unicornLevel)
         
     }
 }
